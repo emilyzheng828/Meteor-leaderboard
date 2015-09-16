@@ -6,7 +6,7 @@ PlayersList.insert({
 
 if(Meteor.isClient){
 
-console.log("hh");
+console.log("Hello");
 
  Template.leaderboard.player= function(){
   return "This is cool. I am at blueberry farm now"
