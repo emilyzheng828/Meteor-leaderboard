@@ -3,9 +3,38 @@
 </head>
 <body>
 	<h1>Leaderboard</h1>
-	{{>leaderboard}}
+	{{	> Nav }}
+	{{> loginButtons}}
+	{{> fullcalendar id="myCalendar" }}
+
 </body>
 
+<template name="leaderboard0">
+	hello {{ other }}
+</template>
+
 <template name="leaderboard">
-	{{player}}
+	{{ player }}
+</template>
+
+<template name="leaderboard2">
+	hi
+</template>
+
+<template name="leaderboard3">
+	hey
+</template>
+
+<template name="Nav">
+  <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/hello">hello</a>
+    </li>
+    <li>
+      <a href="/hello2">hello2</a>
+    </li>
+  </ul>
 </template>
